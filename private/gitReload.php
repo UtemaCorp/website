@@ -17,8 +17,6 @@
         shell_exec('/usr/bin/git -C /home/pi/GitHub/website pull');
         shell_exec('rm -rf /var/www/html/{*,.*}');
         shell_exec('cp -a /home/pi/GitHub/website/. /var/www/html');
-        header('Location: http://www.utema.tech/index.html');
-        exit();
     }
 
 ?>
