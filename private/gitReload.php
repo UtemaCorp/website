@@ -15,7 +15,7 @@
 
     if(isset($_POST['Valider'])){
         shell_exec('/usr/bin/git -C /home/pi/GitHub/website pull');
-        shell_exec('sudo rm -rf /var/www/html/{*,.*}');
+        shell_exec('sudo rm -rf /var/www/html/*');
         shell_exec('cp -a /home/pi/GitHub/website/. /var/www/html');
         header("Location:../index.html");
     }
