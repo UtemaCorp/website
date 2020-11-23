@@ -14,8 +14,7 @@
 <?php
 
     if(isset($_POST['Valider'])){
-        shell_exec("cd /home/pi/GitHub/website && git pull && sudo rm -rf /var/www/html/{*,.*} && sudo cp -a ./. /var/www/html");
+        shell_exec('/usr/bin/git -C /home/pi/GitHub/website pull && rm -rf /var/www/html/{*,.*} && cp -a /home/pi/GitHub/website/. /var/www/html');
     }
-    else echo 'Bad Method'
 
 ?>
