@@ -1,4 +1,4 @@
-AuthName "Page d'informations sensibles"
 AuthType Basic
-AuthUserFile "/var/www/html/private/.htpasswd"
+AuthName "Private"
+AuthUserFile /etc/apache2/.htpasswd
 Require valid-user
