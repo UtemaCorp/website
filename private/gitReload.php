@@ -3,7 +3,7 @@
 
     </head>
     <body>
-        <form method="post" action="./">
+        <form method="post" action="">
             <input type="submit" value="Mettre à jour le site !" name="Valider">
         </form>
     </body>
@@ -17,6 +17,7 @@
         shell_exec('/usr/bin/git -C /home/pi/GitHub/website pull');
         shell_exec('rm -rf /var/www/html/{*,.*}');
         shell_exec('cp -a /home/pi/GitHub/website/. /var/www/html');
+        header("Location:../index.html");
     }
 
 ?>
