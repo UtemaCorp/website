@@ -14,7 +14,11 @@
 <?php
 
     if(isset($_POST['Valider'])){
-        shell_exec('/usr/bin/git -C /home/pi/GitHub/website pull && rm -rf /var/www/html/{*,.*} && cp -a /home/pi/GitHub/website/. /var/www/html');
+        shell_exec('/usr/bin/git -C /home/pi/GitHub/website pull');
+        shell_exec('rm -rf /var/www/html/{*,.*}');
+        shell_exec('cp -a /home/pi/GitHub/website/. /var/www/html');
+        header('Location: http://www.utema.tech');
+        exit();
     }
 
 ?>
