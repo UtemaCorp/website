@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta name='viewport' content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="img/icon.png" />
+    <title>Louis Georget</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <section class="banner" id="sec">
+        <header>
+            <img class="logo" src="img/logo.png" alt="Logo Louis Georget">
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+
+        <div class="content">
+            <h2><span>Louis Georget</span></h2>
+            <p>
+                <span2>Amateur de graphisme</span2></p><br><hr>
+            <p class="petit">    
+                Je touche à plusieurs facettes de l'informatique, en particulier dans les domaines créatifs :
+            <span3><br>Graphisme, musique, dessins, montage vidéo et photo, programmation et bien plus...</span3>
+            </p>
+            <hr>
+            <a href="./Portfolio/index.html">Voir le portfolio</a>
+        </div>
+
+        <ul class="sci">
+            <li><a target="_blank" href="https://twitter.com/Ronteahri"><img src="img/twitter.png" alt="Logo Twitter"></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/ronteahri/"><img src="img/instagram.png" alt="Logo Instagram"></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/channel/UC2ohu73bjCxPko4vvO3yfSw"><img src="img/youtube.png" alt="Logo Youtube"></a></li>
+        </ul>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        $('section').mousemove(function(e){
+            var moveX = (e.pageX * -1/70);
+            var moveY = (e.pageY * -1/70);
+            $(this).css('background-position', moveX + 'px ' + moveY +'px')
+        })
+
+    </script>
+
+    <div id="navigation">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="#">Qui suis-je ?</a></li>
+            <li><a href="./Portfolio/index.html">Portfolio</a></li>
+            <li><a href="travaux.html">Travaux</a></li>
+            <li><a href="postes.html">Postes</a></li>
+            <li><a href="#">Contacter</a></li>
+        </ul>
+    </div>
+
+
+    <script type="text/javascript">
+        function toggle(){
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigation');
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+
+
+</body>
+</html>

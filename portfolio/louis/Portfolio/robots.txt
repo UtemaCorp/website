@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: http://info.univ-lemans.fr/~s193436/Portfolio/index.html/sitemap.xml

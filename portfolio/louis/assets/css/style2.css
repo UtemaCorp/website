@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "WashYourHand";
+  src: url(../fonts/WashYourHand.ttf);
+}
+
+.titre {
+  letter-spacing: 10px;
+  color: #f55656;
+  font-size: 80px;
+  margin-top: -20px;
+  text-align: center;
+  font-family: WashYourHand;
+}
+
+.titre2 {
+  letter-spacing: 6px;
+  color: #fff;
+  font-size: 60px;
+  margin-top: -20px;
+  text-align: center;
+}
+
+@media (max-width: 1199px) {
+  .degage {
+    visibility: hidden;
+    max-width: 15px;
+  }
+}
+
+@media (max-width: 440px) {
+  .titre {
+    font-size: 40px;
+  }
+
+  .titre2 {
+    font-size: 30px;
+    margin-top: 5%;
+  }
+}
