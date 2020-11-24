@@ -77,3 +77,10 @@
 .lefted {
   margin-right: 80px;
 }
+
+.contacted {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: -25px;
+  text-align: center;
+}
