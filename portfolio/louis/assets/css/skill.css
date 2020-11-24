@@ -157,6 +157,11 @@
     height: 20px;
     padding-right: 20px;
   }
+
+  .skill-bar {
+    height: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
@@ -175,6 +180,11 @@
   }
 
   .skill-fill {
+    height: 14px;
+    padding-right: 14px;
+  }
+
+  .skill-bar {
     height: 14px;
     padding-right: 14px;
   }

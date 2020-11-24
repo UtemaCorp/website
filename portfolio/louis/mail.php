@@ -1,27 +1,13 @@
 <?php
 
-$message_sent = false;
+if (isset($_POST['valideMail'])) {
 
-if (isset($_POST['email']) && $_POST['email'] != '') {
+    $nom = $_POST['name'];
+    $objet = $_POST['subject'];
+    $message = $_POST['message'];
 
-    if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+    $string = urlencode($message);
+    $replaced = str_replace('+', ' ', $string);
 
-
-
-        $userName = $_POST['name'];
-        $userEmail = $_POST['email'];
-        $messageSubject = $_POST['subject'];
-        $message = $_POST['message'];
-
-        $to = "georget.portfolio@gmail.com";
-        $body = "";
-
-        $body .= "From: " . $userName . "\r\n";
-        $body .= "Email: " . $userEmail . "\r\n";
-        $body .= "Message: " . $message . "\r\n";
-
-        mail($to, $messageSubject, $body);
-
-        $message_sent = true;
-    }
+    header("Location: mailto:georget.portfolio@gmail.com?subject=" . urlencode($objet) . "&body=" . $replaced);
 }

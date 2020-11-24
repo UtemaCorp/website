@@ -28,12 +28,12 @@
             </button>
             <div id="my-nav" class="collapse navbar-collapse">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item active"> <a class="nav-link" href="http://utema.tech">UTEMA</a> </li>
+                    <li class="nav-item active lefted"> <a class="nav-link" href="http://utema.tech">< UTEMA</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="#about" tabindex="-1" aria-disabled="true">About</a>
                     </li>
-                    <li class="nav-item"> <a class="nav-link" href="#activity" tabindex="-1" aria-disabled="true">Récent</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#activity" tabindex="-1" aria-disabled="true">Recent</a></li>
                     <li class="nav-item"> <a class="nav-link" href="#portfolio" tabindex="-1" aria-disabled="true">Portfolio</a></li>
-                    <li class="nav-item"> <a class="nav-link" href="#testimonial" tabindex="-1" aria-disabled="true">Compétences</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#testimonial" tabindex="-1" aria-disabled="true">Competences</a></li>
                     <li class="nav-item"> <a class="nav-link" href="#social" tabindex="-1" aria-disabled="true">Social</a></li>
                     <li class="nav-item"> <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a></li>
                 </ul>
@@ -55,12 +55,12 @@
     <div class="container-fluid fh5co-two-img" id="about">
         <div class="row">
             <div class="col-sm-6 pr-0 pl-0">
-                <div class="card"> <img class="card-img" src="assets/img/girl1.jpg" alt="louis 1">
+                <div class="card"> <img class="card-img" src="assets/img/louis1.jpg" alt="louis 1">
                     <div class="card-img-overlay"> </div>
                 </div>
             </div>
             <div class="col-sm-6 pr-0 pl-0">
-                <div class="card"> <img class="card-img" src="assets/img/girl2.jpg" alt="louis 2">
+                <div class="card"> <img class="card-img" src="assets/img/louis2.jpg" alt="louis 2">
                     <div class="card-img-overlay"> </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
         <div class="container contact-pop">
             <div class="row">
                 <div class="col-md-6  pr-0">
-                    <div class="card"> <img class="card-img w-100" src="assets/img/girl3.jpg" alt="louis 3">
+                    <div class="card"> <img class="card-img w-100" src="assets/img/louis3.jpg" alt="louis 3">
                         <div class="card-img-overlay"> </div>
                     </div>
                 </div>
@@ -495,7 +495,7 @@
                     <script>
                         (function() {
                             var setting = {
-                                "height": 875,
+                                "height": 689,
                                 "width": 1200,
                                 "zoom": 11,
                                 "queryString": "Le Mans, France",
@@ -531,24 +531,24 @@
                     <form action="mail.php" method="POST" class="form">
 
 
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Votre Nom" tabindex="1" required>
-
-                        <input type="email" class="form-control" id="email" name="email" placeholder="votre@email.com" tabindex="2" required>
-
                         <input type="text" class="form-control" id="subject" name="subject" placeholder="Objet" tabindex="3" required>
 
-                        <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Enter votre message..." tabindex="4"></textarea>
+                        <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Enter votre message..." tabindex="4" required></textarea>
 
-                        <button type="submit">Envoyer</button>
+                        <button name="valideMail" type="submit">Envoyer</button>
+
 
                     </form>
+
                 </div>
             </div>
         </div>
 
         <div class="copy pt-4 pb-4">
-            <p>&copy;2020 &nbsp; - &nbsp;<a href="#about" target="_blank">Louis GEORGET</a> &nbsp; <br> &nbsp; All rights reserved.
+            <p>2020 <a href="#about" target="_blank">Louis Georget</a><br>All rights reserved
             </p>
+            <p class="serrer">&copy;</p>
+            <p class="ptit">Images by Louis Georget and <a target="_blank" href="http://utema.tech">UTEMA</a>.</p>
         </div>
 
     </footer>
