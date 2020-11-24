@@ -6,7 +6,7 @@ window.onscroll = function(){
         nav.style.color = "transparent";
     }
     else {
-        nav.style.background = "#f55656";
+        nav.style.background = "#b84141";
         nav.style.color = "#fff";
     }
 }

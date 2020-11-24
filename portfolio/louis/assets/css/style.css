@@ -63,7 +63,7 @@ h2 {
 .maine-menu .navbar-nav li.active a,
 .maine-menu .navbar-nav li:hover a,
 .maine-menu .navbar-nav li:visited a {
-  color: #f55656;
+  color: #b84141;
 }
 .maine-menu .bar1,
 .maine-menu .bar2,
@@ -261,22 +261,22 @@ h2 {
   margin-bottom: 10px;
 }
 .contact-pop .content h4 {
-  color: #978b91;
+  color: #634d4d;
   font-size: 18px;
   font-family: "PT-Sans-Regular";
 }
 .contact-pop .content p {
-  color: #584f53;
+  color: #533434;
 }
 .contact-pop .content hr {
-  background-color: #f55656;
+  background-color: #b84141;
   width: 50px;
   height: 5px;
   border: none;
   margin-left: 0;
 }
 .contact-pop .content a {
-  background-color: #f55656;
+  background-color: #b84141;
   width: 158px;
   border-radius: 40px;
   color: #fefefe;
@@ -580,7 +580,7 @@ h2 {
 .recent .owl-carousel .owl-nav .owl-prev:hover,
 .recent .owl-carousel .owl-nav .owl-next:hover {
   background: #fff;
-  color: #f55656;
+  color: #b84141;
 }
 .recent .owl-carousel .owl-nav .owl-prev span,
 .recent .owl-carousel .owl-nav .owl-next span {
@@ -611,7 +611,7 @@ h2 {
 }
 .recent .card p {
   font-size: 14px;
-  color: #f55656;
+  color: #b84141;
 }
 .recent .card.active,
 .recent .card:hover {
@@ -625,18 +625,15 @@ h2 {
 .recent .card:hover .card-img-overlay {
   background: -webkit-linear-gradient(
     rgba(0, 0, 0, 0.3),
-    rgba(233, 14, 101, 0.95)
+    rgba(233, 14, 14, 0.95)
   );
-  background: -moz-linear-gradient(
-    rgba(0, 0, 0, 0.3),
-    rgba(233, 14, 101, 0.95)
-  );
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
-  background: -ms-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 101, 0.95));
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 14, 0.95));
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 14, 0.95));
+  background: -ms-linear-gradient(rgba(0, 0, 0, 0.3), rgba(233, 14, 14, 0.95));
 }
 .recent .card.active p,
 .recent .card:hover p {
-  color: #e587ac;
+  color: #c44e4e;
 }
 .recent .card-img-overlay {
   border-radius: 15px;
@@ -668,7 +665,7 @@ h2 {
   margin-top: 0;
 }
 .fh5co-portfolio h2 {
-  color: #584f53;
+  color: #4d3939;
   margin-bottom: 20px;
 }
 .fh5co-portfolio .card {
@@ -750,7 +747,7 @@ h2 {
   margin-top: 0;
 }
 .activity h2 {
-  color: #584f53;
+  color: #4b3d3d;
 }
 .activity .owl-carousel .owl-nav .owl-prev,
 .activity .owl-carousel .owl-nav .owl-next {
@@ -781,16 +778,13 @@ h2 {
 .activity .card:hover .card-img-overlay {
   background: -webkit-linear-gradient(
     rgba(0, 0, 0, 0.3),
-    rgba(233, 14, 101, 0.95)
+    rgba(209, 12, 12, 0.95)
   );
-  background: -moz-linear-gradient(
-    rgba(0, 0, 0, 0.3),
-    rgba(233, 14, 101, 0.95)
-  );
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.3), rgba(209, 12, 12, 0.95));
 }
 .activity .card.active p,
 .activity .card:hover p {
-  color: #e587ac;
+  color: #962323;
 }
 .activity .card h5 {
   font-size: 22px;
@@ -818,7 +812,7 @@ h2 {
   padding: 0;
 }
 .fh5co-about-me .card-img-overlay {
-  background-color: rgba(233, 14, 101, 0.902);
+  background-color: rgba(158, 20, 20, 0.829);
 }
 .fh5co-about-me h2 {
   text-align: center;
@@ -948,13 +942,13 @@ h2 {
 }
 .twit-box .media-body h5 {
   font-size: 22px;
-  color: #03a9f4;
+  color: #42bef8;
 }
 .twit-box .media-body p {
-  color: #a1a0a1;
+  color: #a1a0a0;
 }
 .twit-box p {
-  color: #666666;
+  color: #5a5a5a;
 }
 .twit-box a {
   background-color: #03a9f4;
@@ -994,7 +988,7 @@ h2 {
   margin: 0 10px;
 }
 .social-links ul li a {
-  border: 1px solid #a59299;
+  border: 1px solid #8f4646;
   border-radius: 50%;
   width: 48px;
   height: 48px;
@@ -1023,7 +1017,7 @@ footer .contact-form {
   margin: 117px auto;
 }
 footer .contact-form h3 {
-  color: #f55656;
+  color: #b84141;
   font-size: 20px;
   text-align: center;
   margin-bottom: 20px;
@@ -1045,7 +1039,7 @@ footer .contact-form textarea {
   padding-top: 20px !important;
 }
 footer .contact-form button {
-  background: #f55656;
+  background: #b84141;
   width: 140px;
   padding: 13px 0;
   font-size: 15px;
@@ -1073,7 +1067,7 @@ footer .copy a {
   text-decoration: none;
 }
 footer .copy a:hover {
-  color: #f55656;
+  color: #b84141;
 }
 @media (max-width: 1199px) {
   footer .contact-form {
@@ -1118,7 +1112,7 @@ footer .copy a:hover {
 }
 
 .blog-content-inner {
-  background-color: #f55656;
+  background-color: #b84141;
   background-color: #961a1a;
   padding: 70px;
   border-radius: 15px;

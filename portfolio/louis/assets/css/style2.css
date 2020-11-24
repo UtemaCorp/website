@@ -14,7 +14,7 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background-color: #f55656;
+  background-color: #b84141;
 }
 
 /* Handle */
@@ -30,7 +30,7 @@
 
 .titre {
   letter-spacing: 10px;
-  color: #f55656;
+  color: #c02b2b;
   font-size: 80px;
   margin-top: -20px;
   text-align: center;
