@@ -13,7 +13,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
         $messageSubject = $_POST['subject'];
         $message = $_POST['message'];
 
-        $to = "georget.portfolio@gmail.com";
+        $to = "light.louis@hotmail.fr";
         $body = "";
 
         $body .= "From: " . $userName . "\r\n";
@@ -60,7 +60,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
             </button>
             <div id="my-nav" class="collapse navbar-collapse">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item active"> <a class="nav-link" href="#">Home</a> </li>
+                    <li class="nav-item active"> <a class="nav-link" href="http://utema.tech">UTEMA</a> </li>
                     <li class="nav-item"> <a class="nav-link" href="#about" tabindex="-1" aria-disabled="true">About</a>
                     </li>
                     <li class="nav-item"> <a class="nav-link" href="#activity" tabindex="-1" aria-disabled="true">Récent</a></li>
@@ -560,7 +560,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                 <div class="contact-form" id="contact">
 
                     <h3 class="text-uppercase">Me contacter</h3>
-                    <form action="index.php" method="POST" class="form">
+                    <form action="index.php#contact" method="POST" class="form">
 
                         <?php
                         if ($message_sent) :
