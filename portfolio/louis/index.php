@@ -43,12 +43,17 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
     <link rel="stylesheet" href="assets/css/style2.css">
     <link rel="stylesheet" href="assets/css/button.css">
     <link rel="stylesheet" href="assets/css/skill.css">
+    <link rel="stylesheet" href="assets/css/top.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
 
     <link rel="icon" href="./assets/img/icon.ico" />
     <title>Louis Georget</title>
 </head>
 
 <body>
+    
+    <a id="nav" class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
+
     <nav class="navbar navbar-expand-md  fixed-top maine-menu">
         <div class="container">
             <button class="navbar-toggler ml-auto" data-target="#my-nav" onclick="myFunction(this)" data-toggle="collapse"> <span class="bar1"></span> <span class="bar2"></span> <span class="bar3"></span>
@@ -591,13 +596,13 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 
     </footer>
 
-
     <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/main2.js"></script>
+    <script src="assets/js/top.js"></script>
 
 </body>
 
