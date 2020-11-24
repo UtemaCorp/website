@@ -6,14 +6,14 @@ html {
   position: fixed;
   width: 80px;
   height: 80px;
-  background: #f55656;
+  background: transparent;
   bottom: 40px;
   right: 50px;
 
   text-decoration: none;
   text-align: center;
   line-height: 50px;
-  color: white;
+  color: transparent;
   font-size: 35px;
 
   border-radius: 20px;
