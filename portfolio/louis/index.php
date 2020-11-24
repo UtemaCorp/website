@@ -13,14 +13,13 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
         $messageSubject = $_POST['subject'];
         $message = $_POST['message'];
 
-        $to = "light.louis@hotmail.fr";
         $body = "";
 
         $body .= "From: " . $userName . "\r\n";
         $body .= "Email: " . $userEmail . "\r\n";
         $body .= "Message: " . $message . "\r\n";
 
-        mail($to, $messageSubject, $body);
+        mail("georget.portfolio@gmail.com", $messageSubject, $body);
 
         $message_sent = true;
     }
@@ -51,7 +50,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
 </head>
 
 <body>
-    
+
     <a id="nav" class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
 
     <nav class="navbar navbar-expand-md  fixed-top maine-menu">
@@ -590,7 +589,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
         </div>
 
         <div class="copy pt-4 pb-4">
-            <p><a href="https://freehtml5.co/" target="_blank"> &copy; 2020</a> &nbsp; - &nbsp;<a href="https://freehtml5.co/" target="_blank">Louis GEORGET</a> &nbsp; <br> &nbsp; All rights reserved.
+            <p>&copy; 2020 &nbsp; - &nbsp;<a href="#about" target="_blank">Louis GEORGET</a> &nbsp; <br> &nbsp; All rights reserved.
             </p>
         </div>
 
