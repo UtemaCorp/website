@@ -1,8 +1,0 @@
-Template :
-https://startbootstrap.com/themes/grayscale/
-
-Bootstrap :
-http://info.univ-lemans.fr/~s193436/Portfolio/index.html
-
-Wordpress :
-https://georgetlouis.wordpress.com/

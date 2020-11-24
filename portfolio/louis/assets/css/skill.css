@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@font-face {
+  font-family: "WashYourHand";
+  src: url(../fonts/WashYourHand.ttf);
+}
+
+.skills-area {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20%;
+}
+
+.skill {
+  position: relative;
+  padding: 40px;
+  margin-bottom: 20px;
+  background: white;
+  border-radius: 25px;
+  z-index: 0;
+}
+
+.skill-title {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-family: Poppins;
+}
+
+.skill-bar {
+  width: 94%;
+  background: #f5565649;
+  height: 40px;
+  z-index: -1;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.skill-fill {
+  background: #f55656;
+  height: 40px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.skill-percent {
+  font-size: 22px;
+  color: white;
+  font-family: WashYourHand;
+}
+
+.ps {
+  animation: ps 2s;
+  width: 85%;
+}
+
+.ai {
+  animation: ai 2s;
+  width: 75%;
+}
+
+.als {
+  animation: als 2s;
+  width: 75%;
+}
+
+.csp {
+  animation: csp 2s;
+  width: 70%;
+}
+
+.pp {
+  animation: pp 2s;
+  width: 70%;
+}
+
+.html {
+  animation: html 2s;
+  width: 60%;
+}
+
+@keyframes ps {
+  from {
+    width: 0;
+  }
+  to {
+    width: 85%;
+  }
+}
+
+@keyframes ai {
+  from {
+    width: 0;
+  }
+  to {
+    width: 75%;
+  }
+}
+
+@keyframes als {
+  from {
+    width: 0;
+  }
+  to {
+    width: 75%;
+  }
+}
+
+@keyframes csp {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+@keyframes pp {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+@keyframes html {
+  from {
+    width: 0;
+  }
+  to {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  .skill-title {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .skill-percent {
+    font-size: 20px;
+  }
+
+  .skill {
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .skill-fill {
+    height: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .skill-title {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+
+  .skill-percent {
+    font-size: 14px;
+  }
+
+  .skill {
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+
+  .skill-fill {
+    height: 14px;
+    padding-right: 14px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .skills-area {
+    padding: 0 5%;
+  }
+  .skill-bar {
+    visibility: hidden;
+  }
+}
+
+.card-img-overlay .titre {
+  font-family: WashYourHand;
+}
+
+@media only screen and (max-width: 1430px) {
+  .card-img-overlay .titre {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .card-img-overlay .titre {
+    margin-bottom: -5px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .card-img-overlay .titre {
+    margin-bottom: 10%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .card-img-overlay .titre {
+    margin-bottom: 10%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .card-img-overlay .titre {
+    font-size: 20px;
+  }
+}

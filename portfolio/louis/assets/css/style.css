@@ -601,6 +601,9 @@ h2 {
 .recent .card .card-img {
   border-radius: 15px;
 }
+.recent .card .card-img1 {
+  border-radius: 0px;
+}
 .recent .card h5 {
   font-size: 20px;
   color: #fff;
