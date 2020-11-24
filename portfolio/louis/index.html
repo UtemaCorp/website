@@ -1,34 +1,3 @@
-<?php
-
-$message_sent = false;
-
-if (isset($_POST['email']) && $_POST['email'] != '') {
-
-    if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-
-
-
-        $userName = $_POST['name'];
-        $userEmail = $_POST['email'];
-        $messageSubject = $_POST['subject'];
-        $message = $_POST['message'];
-
-        $body = "";
-
-        $body .= "From: " . $userName . "\r\n";
-        $body .= "Email: " . $userEmail . "\r\n";
-        $body .= "Message: " . $message . "\r\n";
-
-        mail("georget.portfolio@gmail.com", $messageSubject, $body);
-
-        $message_sent = true;
-    }
-}
-?>
-
-
-
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -559,29 +528,18 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
                 <div class="contact-form" id="contact">
 
                     <h3 class="text-uppercase">Me contacter</h3>
-                    <form action="index.php#contact" method="POST" class="form">
+                    <form action="mail.php" method="POST" class="form">
 
-                        <?php
-                        if ($message_sent) :
-                        ?>
-                            <h3>Votre message a été envoyé !</h3>
-                        <?php
-                        else :
-                        ?>
 
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Votre Nom" tabindex="1" required>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Votre Nom" tabindex="1" required>
 
-                            <input type="email" class="form-control" id="email" name="email" placeholder="votre@email.com" tabindex="2" required>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="votre@email.com" tabindex="2" required>
 
-                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Objet" tabindex="3" required>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Objet" tabindex="3" required>
 
-                            <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Enter votre message..." tabindex="4"></textarea>
+                        <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Enter votre message..." tabindex="4"></textarea>
 
-                            <button type="submit">Envoyer</button>
-
-                        <?php
-                        endif;
-                        ?>
+                        <button type="submit">Envoyer</button>
 
                     </form>
                 </div>
@@ -589,7 +547,7 @@ if (isset($_POST['email']) && $_POST['email'] != '') {
         </div>
 
         <div class="copy pt-4 pb-4">
-            <p>&copy; 2020 &nbsp; - &nbsp;<a href="#about" target="_blank">Louis GEORGET</a> &nbsp; <br> &nbsp; All rights reserved.
+            <p>&copy;2020 &nbsp; - &nbsp;<a href="#about" target="_blank">Louis GEORGET</a> &nbsp; <br> &nbsp; All rights reserved.
             </p>
         </div>
 
