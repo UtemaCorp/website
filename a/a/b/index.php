@@ -48,7 +48,7 @@
         ?></h1>
         <p class="font-italic mb-0">C'est fou comme ça passe vite...</p>
         <br>
-        <form action="index.php" method="GET">
+        <form action="index.php" method="POST">
             <input type="submit" name="Valider" value="Burp" class="btn btn-primary px-5"></input>
             <input type="submit" name="Valider" value="Remove" class="btn btn-primary px-5"></input>
         </form>
