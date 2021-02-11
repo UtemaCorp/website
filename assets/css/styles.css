@@ -120,3 +120,9 @@ html {
   margin-top: 20px;
   margin-left: -18px;
 }
+
+@media only screen and (max-width: 386px) {
+  .disparait {
+    display: none;
+  }
+}
