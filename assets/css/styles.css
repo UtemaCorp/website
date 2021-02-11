@@ -119,6 +119,13 @@ html {
   }
 }
 
+@media only screen and (max-width: 451px) {
+  .decale {
+    margin-top: 13%;
+    margin-left: 0%;
+  }
+}
+
 .adjust {
   width: 100px;
   margin-top: 20px;
