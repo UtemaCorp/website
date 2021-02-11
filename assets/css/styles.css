@@ -114,3 +114,9 @@ html {
     margin-left: 4%;
   }
 }
+
+.adjust {
+  width: 100px;
+  margin-top: 20px;
+  margin-left: -18px;
+}
