@@ -126,3 +126,11 @@ html {
     display: none;
   }
 }
+
+a:link {
+  color: #f5faff;
+}
+
+a:visited {
+  color: #f5faff;
+}
