@@ -13,7 +13,8 @@
   border-radius: 20px;
   z-index: 1000;
 
-  transition: all 0.5s ease-in-out;
+  transition: ease-in-out 0.5s all;
+  color: #007fff;
 }
 
 .gotopbtn:hover {

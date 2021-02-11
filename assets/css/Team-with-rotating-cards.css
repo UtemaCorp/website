@@ -122,6 +122,12 @@
   position: absolute;
   bottom: 0;
   border-top: 1px solid #eeeeee;
+  transition: ease-in-out 0.2s all;
+}
+
+.card-imagia .footer-imagia:hover {
+  letter-spacing: 1px;
+  color: #f5faff;
 }
 
 .card-imagia .footer-imagia .social-imagia a {
