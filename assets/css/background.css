@@ -57,15 +57,6 @@ header:after {
   display: none;
 }
 
-.enfonction2 {
-  visibility: hidden;
-}
-
-.enfonction1 {
-  visibility: visible;
-  display: initial;
-}
-
 @media only screen and (max-width: 767px) {
   .translate {
     display: none;
@@ -76,14 +67,8 @@ header:after {
   }
 }
 
-@media only screen and (max-height: 830px) {
-  .enfonction2 {
-    visibility: visible;
-    display: initial;
-  }
-
-  .enfonction1 {
+@media only screen and (min-width: 1920px) and (max-height: 1080px) {
+  .person {
     visibility: hidden;
-    display: none;
   }
 }
