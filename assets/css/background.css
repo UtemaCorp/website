@@ -88,3 +88,15 @@ header:after {
     display: none;
   }
 }
+
+@media only screen and (min-width: 1920px) and (max-height: 1080px) {
+  .enfonction2 {
+    visibility: visible;
+    display: initial;
+  }
+
+  .enfonction1 {
+    visibility: hidden;
+    display: none;
+  }
+}
