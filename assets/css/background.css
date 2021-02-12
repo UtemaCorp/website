@@ -54,20 +54,20 @@ header:after {
 }
 
 .enfonction {
-  display: none !important;
+  display: none;
 }
 
 .enfonction2 {
-  display: none !important;
+  visibility: hidden;
 }
 
 .enfonction1 {
-  display: inline;
+  visibility: visible;
 }
 
 @media only screen and (max-width: 767px) {
   .translate {
-    display: none !important;
+    display: none;
   }
 
   .enfonction {
@@ -77,10 +77,10 @@ header:after {
 
 @media only screen and (max-height: 830px) {
   .enfonction2 {
-    display: inline;
+    visibility: visible;
   }
 
   .enfonction1 {
-    display: none !important;
+    visibility: hidden;
   }
 }
