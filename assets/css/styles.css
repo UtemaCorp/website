@@ -17,12 +17,6 @@ html {
   font-family: "Josefin Sans", sans-serif;
 }
 
-@media only screen and (max-height: 830px) {
-  .rambla {
-    text-shadow: black 0px 0 10px;
-  }
-}
-
 .visage {
   margin-top: -10px;
   margin-left: -15px;

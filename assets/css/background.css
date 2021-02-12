@@ -30,12 +30,6 @@ header:after {
   z-index: 20;
 }
 
-@media only screen and (max-height: 830px) {
-  .person {
-    mix-blend-mode: overlay;
-  }
-}
-
 .mountain2 {
   position: absolute;
   width: 100%;
@@ -63,6 +57,14 @@ header:after {
   display: none;
 }
 
+.enfonction2 {
+  display: none;
+}
+
+.enfonction1 {
+  display: initial;
+}
+
 @media only screen and (max-width: 767px) {
   .translate {
     display: none;
@@ -70,5 +72,15 @@ header:after {
 
   .enfonction {
     display: inline;
+  }
+}
+
+@media only screen and (max-height: 830px) {
+  .enfonction2 {
+    display: initial;
+  }
+
+  .enfonction1 {
+    display: none;
   }
 }
