@@ -95,10 +95,10 @@
                             </div>
                         </nav>
 
-                        <img src="assets/img/premier.png" class="person translate" data-speed="-0.45" alt="">
-                        <img src="assets/img/deuxieme.png" class="mountain2 translate" data-speed="0.15" alt="">
-                        <img src="assets/img/troisieme.png" class="mountain3 translate" data-speed="0.3" alt="">
-                        <img src="assets/img/fond.png" class="sky translate" style="display: none;" data-speed="0.5" alt="">
+                        <img src="assets/img/premier.png" class="person translate" data-speed="-0.45" alt="premier plan">
+                        <img src="assets/img/deuxieme.png" class="mountain2 translate" data-speed="0.15" alt="deuxieme plan">
+                        <img src="assets/img/troisieme.png" class="mountain3 translate" data-speed="0.3" alt="troisieme plan">
+                        <img src="assets/img/fond.png" class="sky translate" style="display: none;" data-speed="0.5" alt="fond">
 
                         <nav class="navbar navbar-dark navbar-expand-md" style="z-index: 100000;">
                             <div class="hero">
