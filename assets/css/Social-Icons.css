@@ -5,7 +5,7 @@
   padding: 70px 0;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .social-icons {
     padding: 50px 0;
   }
@@ -14,13 +14,30 @@
 .social-icons i {
   font-size: 32px;
   display: inline-block;
-  color: #757980;
+  color: #f5faff;
   margin: 0 10px;
   width: 60px;
   height: 60px;
-  border: 1px solid #c8ced7;
+  border: 1px solid #f5faff;
   text-align: center;
   border-radius: 50%;
   line-height: 60px;
+  transition: all 0.2s ease-in-out;
 }
 
+.social-icons i:hover {
+  color: #007fff;
+}
+
+@media only screen and (max-width: 767px) {
+  .social-icons i {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .social-icons i {
+    margin: 3px;
+    margin-top: 30px;
+  }
+}

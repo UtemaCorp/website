@@ -68,6 +68,17 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
+.reduit {
+  color: #f5faff;
+  transition: ease-in-out 0.2s all;
+  margin: 0;
+  padding: 0;
+}
+
+.reduit:hover {
+  color: #007fff;
+}
+
 .bg1 {
   background-image: url("../../assets/img/bg.png");
   background-position: center;
@@ -75,6 +86,41 @@ html {
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.45);
   background-blend-mode: darken;
+}
+
+.swag {
+  background-image: url("../../assets/img/ferme1.png");
+  color: #00193300;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.swag:hover {
+  background-image: url("../../assets/img/ferme.png");
+  color: #00193300;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+
+.aled.toggled .swag {
+  transform: translateX(-80px);
+  background-image: url("../../assets/img/ouvre1.png");
+  color: #00193300;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
+}
+
+.aled.toggled .swag:hover {
+  background-image: url("../../assets/img/ouvre.png");
+  color: #00193300;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1350px) {
@@ -115,7 +161,7 @@ html {
 
 @media only screen and (max-width: 767px) {
   .recentre {
-    margin-left: 4%;
+    margin-left: 5%;
   }
   .decale {
     margin-top: 8%;
