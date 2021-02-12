@@ -132,7 +132,7 @@ html {
   margin-left: -18px;
 }
 
-@media only screen and (max-width: 386px) {
+@media only screen and (max-width: 415px) {
   .disparait {
     display: none;
   }
@@ -142,8 +142,20 @@ html {
   color: #f5faff;
 }
 
-@media only screen and (min-width: 387px) {
+@media only screen and (min-width: 416px) {
   .apparait {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .reduise {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .reduit {
+    font-size: 20px;
   }
 }

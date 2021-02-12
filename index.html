@@ -68,16 +68,37 @@
 
 
     <section id="hero">
-        <nav class="navbar navbar-dark navbar-expand-md">
-            <div class="hero">
-                <div class="decale">
-                <h1>Bonjour, <span></span></h1>
-                <h1>Bienvenue chez <span></span></h1>
-                <h1>UTEMA <span></span></h1>
-                <p><a class="btn btn-primary btn-lg hero-button bouton" role="button" href="#services">DÉCOUVRIR</a></p>
+
+        <header>
+            <nav class="navbar navbar-dark navbar-expand-md" data-speed="0.1" style="z-index: 20;">
+                <div class="hero big-title translate">
+                    <div class="decale">
+                    <h1>Bonjour, <span></span></h1>
+                    <h1>Bienvenue chez <span></span></h1>
+                    <h1>UTEMA <span></span></h1>
+                    
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+    
+            <img src="assets/img/premier.png" class="person translate" data-speed="-0.45" alt="">
+            <img src="assets/img/deuxieme.png" class="mountain2 translate" data-speed="0.15" alt="">
+            <img src="assets/img/troisieme.png" class="mountain3 translate" data-speed="0.3" alt="">
+            <img src="assets/img/fond.png" class="sky translate" style="display: none;" data-speed="0.5" alt="">
+
+            <nav class="navbar navbar-dark navbar-expand-md" style="z-index: 100000;">
+                <div class="hero">
+                    <div class="decale enfonction">
+                    <h1>Bonjour, <span></span></h1>
+                    <h1>Bienvenue chez <span></span></h1>
+                    <h1>UTEMA <span></span></h1>
+                    
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+
     </section>
 
     <!-- End Hero -->
@@ -87,7 +108,7 @@
     <!-- Services -->
 
     <div id='services'></div>
-    <section data-aos="fade-up" style="background: #00050a; padding-bottom: 0px;padding-top: 52px;margin-top: 0px;">
+    <section style="background: #00050a; padding-bottom: 0px;padding-top: 52px;margin-top: 0px;">
         <div class="container" style="background: #00050a;">
             <h1 class="mx-auto" style="text-align: center;margin: 53px; margin-top: 10px; background: #00050a;color: #f5faff;font-size: 50px;">SERV<span 
                 style="color: #007fff;">I</span>CES</h1>
@@ -176,7 +197,7 @@
                                         <div class="content-imagia">
                                             <h3 class="name-imagia">François Pannier</h3>
                                             <p class="subtitle-imagia">Président</p>
-                                            <p class="text-center"><em>
+                                            <p class="text-center reduise"><em>
                                                 Président de UTEMA, se charge de la paperasse et de la communication.
                                             </em></p>
                                         </div>
@@ -197,7 +218,7 @@
                                         <div class="content-imagia">
                                             <h3 class="name-imagia">Romain Laval</h3>
                                             <p class="subtitle-imagia">Développeur</p>
-                                            <p class="text-center"><em>
+                                            <p class="text-center reduise"><em>
                                                 Photographe et développeur C#, C, Python et bien d'autres encore, chargé de la programmation au sein de l'équipe.
                                             </em></p>
                                         </div>
@@ -218,7 +239,7 @@
                                         <div class="content-imagia">
                                             <h3 class="name-imagia">Louis Georget</h3>
                                             <p class="subtitle-imagia">Graphiste</p>
-                                            <p class="text-center"><em>
+                                            <p class="text-center reduise"><em>
                                                 Graphiste, illustrateur, web designer et bien plus, chargé de tout ce qui touche au visuel et à la création en tous genre.
                                             </em></p>
                                         </div>
@@ -245,7 +266,7 @@
                                             <div class="content-imagia">
                                                 <h3 class="name-imagia">Nathan Labbé</h3>
                                                 <p class="subtitle-imagia">Sécurité Informatique</p>
-                                                <p class="text-center"><em>
+                                                <p class="text-center reduise"><em>
                                                     Chargé de la sécurité informatique et du réseaux au sein de UTEMA.
                                                 </em></p>
                                             </div>
@@ -267,7 +288,7 @@
                                             <div class="content-imagia">
                                                 <h3 class="name-imagia">Mato Vidović</h3>
                                                 <p class="subtitle-imagia">Communication</p>
-                                                <p class="text-center"><em>
+                                                <p class="text-center reduise"><em>
                                                     Chargé de la communication entre client et UTEMA, c'est aussi le trésorier.
                                                 </em></p>
                                             </div>
@@ -433,6 +454,7 @@
     <script src="assets/js/Contact-Form-v2-Modal--Full-with-Google-Map.js"></script>
     <script src="assets/js/Fixed-navbar-starting-with-transparency.js"></script>
     <script src="assets/js/Sidebar-Menu.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
