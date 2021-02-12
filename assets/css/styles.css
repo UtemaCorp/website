@@ -73,23 +73,10 @@ html {
   background-blend-mode: darken;
 }
 
-.refocus {
-  margin-top: -4%;
-}
-
-@media only screen and (max-width: 1650px) {
-  .refocus {
-    margin-top: -6%;
-  }
-}
-
 @media only screen and (max-width: 1350px) {
   .decale {
     margin-top: 45%;
     margin-left: 0%;
-  }
-  .refocus {
-    margin-top: -6%;
   }
 }
 
@@ -107,9 +94,6 @@ html {
   }
   #hero .bouton {
     display: none;
-  }
-  .refocus {
-    margin-top: -10%;
   }
 }
 
@@ -132,12 +116,6 @@ html {
   .decale {
     margin-top: 8%;
     margin-left: 0%;
-  }
-  .reposition {
-    margin-top: 50%;
-  }
-  .refocus {
-    margin-top: -13%;
   }
 }
 
