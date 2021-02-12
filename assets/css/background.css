@@ -59,12 +59,10 @@ header:after {
 
 .enfonction2 {
   visibility: hidden;
-  display: none;
 }
 
 .enfonction1 {
   visibility: visible;
-  display: initial;
 }
 
 @media only screen and (max-width: 767px) {
@@ -80,12 +78,10 @@ header:after {
 @media only screen and (max-height: 830px) {
   .enfonction2 {
     visibility: visible;
-    display: initial;
   }
 
   .enfonction1 {
     visibility: hidden;
-    display: none;
   }
 }
 
