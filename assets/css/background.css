@@ -77,5 +77,6 @@ header:after {
 @media only screen and (max-height: 950px) {
   .person {
     visibility: hidden;
+    display: none;
   }
 }
