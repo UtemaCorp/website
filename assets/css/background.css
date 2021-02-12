@@ -73,3 +73,9 @@ header:after {
     visibility: hidden;
   }
 }
+
+@media only screen and (max-height: 950px) {
+  .person {
+    visibility: hidden;
+  }
+}
