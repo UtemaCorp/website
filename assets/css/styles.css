@@ -117,12 +117,18 @@ html {
     margin-top: 8%;
     margin-left: 0%;
   }
+  .reposition {
+    margin-top: 50%;
+  }
 }
 
 @media only screen and (max-width: 451px) {
   .decale {
     margin-top: 13%;
     margin-left: 0%;
+  }
+  .reposition {
+    margin-top: 60%;
   }
 }
 
