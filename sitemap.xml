@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://utema.fr/</loc>
+  <lastmod>2021-02-12T11:36:51+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://utema.fr/portfolio/francois/index.html</loc>
+  <lastmod>2021-02-05T10:35:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://utema.fr/portfolio/romain/index.html</loc>
+  <lastmod>2021-02-05T10:35:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://utema.fr/portfolio/louis/index.html</loc>
+  <lastmod>2021-02-11T20:49:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://utema.fr/portfolio/nathan/index.html</loc>
+  <lastmod>2021-02-05T10:35:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://utema.fr/index.html</loc>
+  <lastmod>2021-02-12T11:36:51+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
