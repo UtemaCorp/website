@@ -63,6 +63,7 @@ header:after {
 
 .enfonction1 {
   visibility: visible;
+  display: initial;
 }
 
 @media only screen and (max-width: 767px) {
@@ -76,16 +77,6 @@ header:after {
 }
 
 @media only screen and (max-height: 830px) {
-  .enfonction2 {
-    visibility: visible;
-  }
-
-  .enfonction1 {
-    visibility: hidden;
-  }
-}
-
-@media only screen and (min-width: 1920px) and (max-height: 1080px) {
   .enfonction2 {
     visibility: visible;
     display: initial;
