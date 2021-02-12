@@ -79,7 +79,7 @@
 
 .html {
   animation: html 2s;
-  width: 60%;
+  width: 65%;
 }
 
 @keyframes ps {
@@ -132,7 +132,7 @@
     width: 0;
   }
   to {
-    width: 60%;
+    width: 65%;
   }
 }
 
