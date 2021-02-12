@@ -82,9 +82,10 @@
                                     //$_SERVER["HTTP_USER_AGENT"] : variable donnant le navigateur
 
                                     if ($_SERVER["HTTP_USER_AGENT"] == 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0') {
-                                        echo '<h1 style="margin-top: -20%; margin-left: -15%; font-size: 65px;">Bonjour, <span></span></h1>
-                                        <h1 style="margin-top: -3%; margin-left: 0%; font-size: 65px;">Bienvenue chez <span></span></h1>
-                                        <h1 class="rambla" style="font-size: 130px; margin-left: 20%; margin-top: -2%;">UTEMA <span></span></h1>';
+
+                                        echo '<h1 style="margin-top: 30%; margin-left: -15%; font-size: 100px;">Bonjour, <span></span></h1>
+                                        <h1 style="margin-top: -3%; margin-left: 0%; font-size: 100px;">Bienvenue chez <span></span></h1>
+                                        <h1 class="rambla" style="font-size: 140px; margin-left: 20%; margin-top: -2%;">UTEMA <span></span></h1>';
                                     } else {
                                         echo '<h1 style="margin-top: 25%;">Bonjour, <span></span></h1>
                                         <h1 style="margin-top: -3%;">Bienvenue chez <span></span></h1>
