@@ -167,6 +167,15 @@ html {
     margin-top: 8%;
     margin-left: 0%;
   }
+  .infos {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .recentre {
+    margin-left: 7%;
+  }
 }
 
 @media only screen and (max-width: 451px) {
@@ -182,9 +191,12 @@ html {
   margin-left: -18px;
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 428px) {
   .disparait {
     display: none;
+  }
+  .recentre {
+    margin-left: 9%;
   }
 }
 
@@ -192,7 +204,7 @@ html {
   color: #f5faff;
 }
 
-@media only screen and (min-width: 416px) {
+@media only screen and (min-width: 429px) {
   .apparait {
     display: none;
   }
