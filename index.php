@@ -78,19 +78,18 @@
                                 <div class="decale">
 
                                     <?php
-                                    //modification du css suivant le navigateur
-                                    //$_SERVER["HTTP_USER_AGENT"] : variable donnant le navigateur
 
-                                    if ($_SERVER["HTTP_USER_AGENT"] == 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:85.0) Gecko/20100101 Firefox/85.0') {
+                                    if (strpos($_SERVER["HTTP_USER_AGENT"], "Firefox/") !== false) {
 
                                         echo '<h1 style="margin-top: 30%; margin-left: -15%; font-size: 100px;">Bonjour, <span></span></h1>
-                                        <h1 style="margin-top: -3%; margin-left: 0%; font-size: 100px;">Bienvenue chez <span></span></h1>
-                                        <h1 class="rambla" style="font-size: 140px; margin-left: 20%; margin-top: -2%;">UTEMA <span></span></h1>';
+                                            <h1 style="margin-top: -3%; margin-left: 0%; font-size: 100px;">Bienvenue chez <span></span></h1>
+                                            <h1 class="rambla" style="font-size: 140px; margin-left: 20%; margin-top: -2%;">UTEMA <span></span></h1>';
                                     } else {
                                         echo '<h1 style="margin-top: 25%;">Bonjour, <span></span></h1>
-                                        <h1 style="margin-top: -3%;">Bienvenue chez <span></span></h1>
-                                        <h1 class="rambla" style="font-size: 150px; margin-top: -2%;">UTEMA <span></span></h1>';
+                                            <h1 style="margin-top: -3%;">Bienvenue chez <span></span></h1>
+                                            <h1 class="rambla" style="font-size: 150px; margin-top: -2%;">UTEMA <span></span></h1>';
                                     }
+
                                     ?>
                                 </div>
                             </div>
