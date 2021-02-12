@@ -73,10 +73,23 @@ html {
   background-blend-mode: darken;
 }
 
+.refocus {
+  margin-top: -4%;
+}
+
+@media only screen and (max-width: 1650px) {
+  .refocus {
+    margin-top: -6%;
+  }
+}
+
 @media only screen and (max-width: 1350px) {
   .decale {
     margin-top: 45%;
     margin-left: 0%;
+  }
+  .refocus {
+    margin-top: -6%;
   }
 }
 
@@ -94,6 +107,9 @@ html {
   }
   #hero .bouton {
     display: none;
+  }
+  .refocus {
+    margin-top: -10%;
   }
 }
 
@@ -120,6 +136,9 @@ html {
   .reposition {
     margin-top: 50%;
   }
+  .refocus {
+    margin-top: -13%;
+  }
 }
 
 @media only screen and (max-width: 451px) {
@@ -129,6 +148,9 @@ html {
   }
   .reposition {
     margin-top: 60%;
+  }
+  .refocus {
+    margin-top: -17%;
   }
 }
 
