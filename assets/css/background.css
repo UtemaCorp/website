@@ -54,11 +54,11 @@ header:after {
 }
 
 .enfonction {
-  display: none;
+  display: none !important;
 }
 
 .enfonction2 {
-  display: none;
+  display: none !important;
 }
 
 .enfonction1 {
@@ -67,7 +67,7 @@ header:after {
 
 @media only screen and (max-width: 767px) {
   .translate {
-    display: none;
+    display: none !important;
   }
 
   .enfonction {
@@ -81,6 +81,6 @@ header:after {
   }
 
   .enfonction1 {
-    display: none;
+    display: none !important;
   }
 }
