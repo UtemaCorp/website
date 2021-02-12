@@ -32,7 +32,7 @@ header:after {
 
 @media only screen and (max-height: 830px) {
   .person {
-    z-index: 0;
+    z-index: -20;
   }
 }
 
