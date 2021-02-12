@@ -30,6 +30,12 @@ header:after {
   z-index: 20;
 }
 
+@media only screen and (max-height: 830px) {
+  .person {
+    z-index: 0;
+  }
+}
+
 .mountain2 {
   position: absolute;
   width: 100%;
