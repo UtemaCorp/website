@@ -37,6 +37,7 @@ $lang = array(
     "Téléphone" => "Phone",
     "Email" => "Email",
     "Localisation" => "Location",
-    "Description" => "Utema aims to promote access to digital technology and the understanding of its implementation tools, supporting professionals and individuals, using all current and future means available."
+    "Description" => "Utema aims to promote access to digital technology and the understanding of its implementation tools, supporting professionals and individuals, using all current and future means available.",
+    "Langues" => "Languages"
 );
 ?>

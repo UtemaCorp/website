@@ -37,6 +37,7 @@ $lang = array(
     "Téléphone" => "Téléphone",
     "Email" => "Email",
     "Localisation" => "Localisation",
-    "Description" => "Utema a pour but de favoriser l’accès au numérique et à la compréhension de ses outils de mise en œuvre, en accompagnant professionnels et particuliers, par le biais de tous les moyens actuels et futurs disponibles."
+    "Description" => "Utema a pour but de favoriser l’accès au numérique et à la compréhension de ses outils de mise en œuvre, en accompagnant professionnels et particuliers, par le biais de tous les moyens actuels et futurs disponibles.",
+    "Langues" => "Langues"
 );
 ?>

@@ -438,16 +438,18 @@ include "config.php";
                     <footer>
                         <div class="container" style="background: rgba(255,255,255,0);">
                             <div class="row">
+
+
                                 <div class="col-sm-6 col-md-3 item">
                                     <h3>Services</h3>
                                     <ul>
-                                        <li><a href="#">Graphisme</a></li>
-                                        <li><a href="#">Developpement</a></li>
-                                        <li><a href="#">Photographie</a></li>
-                                        <li></li>
-                                        <li><a href="#">Vidéo</a></li>
+                                        <li><a href="#"><?php echo $lang['Programmation'] ?></a></li>
+                                        <li><a href="#"><?php echo $lang['Graphisme'] ?></a></li>
+                                        <li><a href="#"><?php echo $lang['Photographie'] ?></a></li>
+                                        <li><a href="#"><?php echo $lang['Vidéo'] ?></a></li>
                                     </ul>
                                 </div>
+
                                 <div class="col-sm-6 col-md-3 item">
                                     <h3>About</h3>
                                     <ul>
@@ -455,13 +457,21 @@ include "config.php";
                                         <li><a href="#">Team</a></li>
                                         <li><a href="#">Careers</a></li>
                                     </ul>
+                                    <br>
+
+                                    <h3><?php echo $lang['Langues'] ?></h3>
+                                    <ul>
+                                        <li><a href="index.php?lang=fr">Français</a></li>
+                                        <li><a href="index.php?lang=en">English</a></li>
+                                    </ul>
                                 </div>
-                                <div class="col-md-6 item text">
+
+                                <div class="col-md-6 col-md-3 item text">
                                     <h3>UTEMA</h3>
-                                    <p>L’association Utema a pour but de favoriser l’accès au numérique et la compréhension de ses
-                                        outils de mise en œuvre, en accompagnant professionnels et particuliers, par le biais de tous les moyens actuels et futurs disponibles.</p>
+                                    <p><?php echo $lang['Description'] ?></p>
                                 </div>
                             </div>
+
                             <p class="copyright">UTEMA © 2021</p>
                         </div>
                     </footer>
