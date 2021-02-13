@@ -1,14 +1,10 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['lang']))
+if (substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2) == "fr") {
     $_SESSION['lang'] = 'fr';
-else if ($_SESSION['lang'] != $_GET['lang'] && isset($_GET['lang']) && !empty($_GET['lang'])) {
-    if ($_GET['lang'] == "fr")
-        $_SESSION['lang'] = "fr";
-    else if ($_GET['lang'] == "en")
-        $_SESSION['lang'] = "en";
-}
+} else
+    $_SESSION['lang'] = "en";
+
 
 require_once "languages/" . $_SESSION['lang'] . ".php";
-?>
