@@ -59,7 +59,7 @@
 
 .ai {
   animation: ai 2s;
-  width: 80%;
+  width: 75%;
 }
 
 .als {
@@ -96,7 +96,7 @@
     width: 0;
   }
   to {
-    width: 85%;
+    width: 75%;
   }
 }
 
