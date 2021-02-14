@@ -59,7 +59,7 @@
 
 .ai {
   animation: ai 2s;
-  width: 75%;
+  width: 80%;
 }
 
 .als {
@@ -79,7 +79,7 @@
 
 .html {
   animation: html 2s;
-  width: 65%;
+  width: 75%;
 }
 
 @keyframes ps {
@@ -96,7 +96,7 @@
     width: 0;
   }
   to {
-    width: 75%;
+    width: 80%;
   }
 }
 
@@ -132,7 +132,7 @@
     width: 0;
   }
   to {
-    width: 65%;
+    width: 75%;
   }
 }
 
