@@ -20,18 +20,28 @@ $lang = array(
     "Montages" => "Montages vidéos, post-productions, scènes, animations, court-métrages et bien d'autres...",
     "À" => "À ",
     "PROPOS" => "PROPOS",
-    "Découvrez" => "Découvrez les membres de l'équipe et apprenez en plus sur UTEMA.",
+    "Découvrez" => "L’Association UTEMA à but de favoriser l’accès et la compréhension du
+    numérique, en accompagnant professionnels et particuliers. La digitalisation de vos
+    projets, ou de votre entreprise, offre une visibilité à une large communauté, un accès
+    direct à vos créations et vos produits, et une clarté à vos projets.
+    Toute l’équipe UTEMA, principalement composé d’étudiants, œuvre pour la
+    digitalisation de tous vos projets.
+    ",
     "Président" => "Président",
-    "Paperasse" => "Président de UTEMA, se charge de la paperasse et de la communication.",
+    "Paperasse" => "Je m’occupe de l’algorithmie derrière vos sites webs, et cogère l’association.",
     "Voir le portfolio" => "Voir le portfolio",
     "Développeur" => "Développeur",
-    "Photgraphe" => "Photographe et développeur C#, C, Python et bien d'autres encore, chargé de la programmation au sein de l'équipe.",
+    "Photgraphe" => "Je développe les solutions logiciels pour les besoins de nos adhérents, et me
+    charge des services photographies et vidéos montages.",
     "Graphiste" => "Graphiste",
-    "Illustrateur" => "Graphiste, illustrateur, web designer et bien plus, chargé de tout ce qui touche au visuel et à la création en tous genre.",
+    "Illustrateur" => "Je réalise l’ensemble des visuels de vos sites web, et m’occupe de tous les
+    designs et graphisme pour nos adhérents.",
     "Sécurité Informatique" => "Sécurité Informatique",
-    "Chargé" => "Chargé de la sécurité informatique et du réseaux au sein de UTEMA.",
+    "Chargé" => "Je suis le responsable de la sécurité informatique et du réseau de vos projets,
+    et au sein de l’Association.",
     "Communication" => "Communication",
-    "Chargé de comm" => "Chargé de la communication entre client et UTEMA, c'est aussi le trésorier.",
+    "Chargé de comm" => "Je cogère l’association et suis responsable du marketing, de la portée et de la
+    visibilité d’UTEMA.",
     "CO" => "CO",
     "NTACTER" => "NTACTER",
     "Téléphone" => "Téléphone",
@@ -40,4 +50,3 @@ $lang = array(
     "Description" => "Utema a pour but de favoriser l’accès au numérique et à la compréhension de ses outils de mise en œuvre, en accompagnant professionnels et particuliers, par le biais de tous les moyens actuels et futurs disponibles.",
     "Langues" => "Langues"
 );
-?>

@@ -20,18 +20,27 @@ $lang = array(
     "Montages" => "Video editing, post-productions, scenes, animations, short films and many more ...",
     "À" => "A",
     "PROPOS" => "BOUT",
-    "Découvrez" => "Meet the team members and learn more about UTEMA.",
+    "Découvrez" => "The UTEMA Association aims to promote access and understanding of
+    by accompanying professionals and individuals. The digitalization of your
+    projects, or your company, offers a visibility to a large community, a direct access to your
+    to your creations and your products, and a clarity to your projects.
+    The whole UTEMA team, mainly composed of students, works for the
+    digitalization of all your projects.",
     "Président" => "President",
-    "Paperasse" => "President of UTEMA, takes care of paperwork and communication.",
+    "Paperasse" => "I take care of the algorithm behind your websites, and manage the association.",
     "Voir le portfolio" => "See portfolio",
     "Développeur" => "Developer",
-    "Photgraphe" => "Photographer and C#, C, Python developer and many more, in charge of programming within the team.",
+    "Photgraphe" => "I develop software solutions for the needs of our members, and I am in charge of
+    and video editing services.",
     "Graphiste" => "Graphic designer",
-    "Illustrateur" => "Graphic designer, illustrator, web designer and more, in charge of everything related to visuals and creation of all kinds.",
+    "Illustrateur" => "I realize all the visuals of your websites, and I take care of all the
+    designs and graphics for our members.",
     "Sécurité Informatique" => "IT security",
-    "Chargé" => "In charge of IT and network security within UTEMA.",
+    "Chargé" => "I am responsible for the computer and network security of your projects,
+    and within the Association.",
     "Communication" => "Communication",
-    "Chargé de comm" => "Responsible for communication between client and UTEMA, he is also the treasurer.",
+    "Chargé de comm" => "I co-manage the association and am responsible for the marketing, outreach and
+    visibility of UTEMA.",
     "CO" => "CO",
     "NTACTER" => "NTACT",
     "Téléphone" => "Phone",
@@ -40,4 +49,3 @@ $lang = array(
     "Description" => "Utema aims to promote access to digital technology and the understanding of its implementation tools, supporting professionals and individuals, using all current and future means available.",
     "Langues" => "Languages"
 );
-?>
