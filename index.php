@@ -221,7 +221,7 @@ include "config.php";
                                             <div class="card-imagia">
                                                 <div class="front-imagia">
                                                     <div class="cover-imagia"><img alt="president" src="assets/img/pres.jpg"></div>
-                                                    <div class="user-imagia"><img class="img-circle visage" style="width: 150px;" alt="francois" src="assets/img/francois.jpg"></div>
+                                                    <div class="user-imagia"><img class="img-circle visage" style="width: 150px;" alt="francois" src="assets/img/francois1.jpg"></div>
                                                     <div class="content-imagia">
                                                         <h3 class="name-imagia">François Pannier</h3>
                                                         <p class="subtitle-imagia"><?php echo $lang['Président'] ?></p>
@@ -263,7 +263,7 @@ include "config.php";
                                             <div class="card-imagia">
                                                 <div class="front-imagia">
                                                     <div class="cover-imagia"><img alt="graphiste" src="assets/img/graph.JPG"></div>
-                                                    <div class="user-imagia"><img class="img-circle visage" style="width: 150px;" alt="louis" src="assets/img/louis.jpg"></div>
+                                                    <div class="user-imagia"><img class="img-circle visage" style="width: 150px;" alt="louis" src="./assets/img/louis1.jpg"></div>
                                                     <div class="content-imagia">
                                                         <h3 class="name-imagia">Louis Georget</h3>
                                                         <p class="subtitle-imagia"><?php echo $lang['Graphiste'] ?></p>
