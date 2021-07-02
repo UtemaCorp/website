@@ -38,7 +38,7 @@ $lang = array(
     "Sécurité Informatique" => "IT security",
     "Chargé" => "I am responsible for the computer and network security of your projects,
     and within the Association.",
-    "Communication" => "Communication",
+    "Communication" => "Treasurer",
     "Chargé de comm" => "I co-manage the association and am responsible for the marketing, outreach and
     visibility of UTEMA.",
     "CO" => "CO",
