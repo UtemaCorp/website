@@ -139,10 +139,9 @@ include "config.php";
                 <!-- Services -->
 
                 <div id='services'></div>
-                <section style="background: #00050a; padding-bottom: 0px;padding-top: 52px;margin-top: 0px;">
-                    <div class="container" style="background: #00050a;">
-                        <h1 class="mx-auto" style="text-align: center;margin: 53px; margin-top: 10px; background: #00050a;color: #f5faff;font-size: 50px;">SERV<span style="color: #007fff;">I</span>CES</h1>
-                        <p class="text-center" style="color: #f5faff;"><?php echo $lang['Équipe'] ?><br><?php echo $lang['Comment aider'] ?><br></p>
+                <section style="background: #13122f; padding-bottom: 0px;padding-top: 52px;margin-top: 0px;">
+                    <div class="container" style="background: #13122f;">
+                        <h1 class="mx-auto" style="text-align: center;margin: 53px; margin-top: 10px; background: #13122f;color: #f5faff;font-size: 50px;">SERV<span style="color: #007fff;">I</span>CES</h1>
                     </div>
 
                     <hr class="d-flex mx-auto" style="background: #f5faff;margin-top: 40px;margin-bottom: -40px;width: auto;max-width: 380px;">
@@ -161,7 +160,7 @@ include "config.php";
                                 <div class="jumbotron hero-photography carousel-hero">
                                     <h1 class="hero-title"><?php echo $lang['Graphisme'] ?></h1>
                                     <p class="hero-subtitle"><?php echo $lang['Logos'] ?>
-                                    </p>
+                                    </p><br>
                                     <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#"><?php echo $lang['En savoir plus'] ?></a></p>
                                 </div>
                             </div>
@@ -170,7 +169,7 @@ include "config.php";
                                 <div class="jumbotron hero-technology carousel-hero">
                                     <h1 class="hero-title"><?php echo $lang['Photographie'] ?></h1>
                                     <p class="hero-subtitle"><?php echo $lang['Portraits'] ?>
-                                    </p>
+                                    </p><br>
                                     <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#"><?php echo $lang['En savoir plus'] ?></a></p>
                                 </div>
                             </div>
@@ -179,6 +178,15 @@ include "config.php";
                                 <div class="jumbotron hero-video carousel-hero">
                                     <h1 class="hero-title"><?php echo $lang['Vidéo'] ?></h1>
                                     <p class="hero-subtitle"><?php echo $lang['Montages'] ?>
+                                    </p><br>
+                                    <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#"><?php echo $lang['En savoir plus'] ?></a></p>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="jumbotron hero-nature carousel-hero">
+                                    <h1 class="hero-title"><?php echo $lang['Support'] ?></h1>
+                                    <p class="hero-subtitle"><?php echo $lang['Réparation'] ?>
                                     </p>
                                     <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#"><?php echo $lang['En savoir plus'] ?></a></p>
                                 </div>
@@ -194,6 +202,7 @@ include "config.php";
                             <li data-target="#carousel-1" data-slide-to="1"></li>
                             <li data-target="#carousel-1" data-slide-to="2"></li>
                             <li data-target="#carousel-1" data-slide-to="3"></li>
+                            <li data-target="#carousel-1" data-slide-to="4"></li>
                         </ol>
                     </div>
                 </section>
@@ -216,26 +225,30 @@ include "config.php";
                             <div class="container" style="max-width: 1200px;">
                                 <div class="row" style="background: #001933;">
 
+
+
                                     <div class="col-sm-6 col-md-4">
                                         <div class="card-container-imagia">
                                             <div class="card-imagia">
                                                 <div class="front-imagia">
-                                                    <div class="cover-imagia"><img alt="president" src="assets/img/pres.jpg"></div>
-                                                    <div class="user-imagia"><img class="img-circle visage" style="width: 150px;" alt="francois" src="assets/img/francois1.jpg"></div>
+                                                    <div class="cover-imagia"><img alt="president" src="assets/img/secu.jpg"></div>
+                                                    <div class="user-imagia"><img class="img-circle visage" style="width: 150px;" alt="nathan" src="assets/img/nathan.jpg"></div>
                                                     <div class="content-imagia">
-                                                        <h3 class="name-imagia">François Pannier</h3>
-                                                        <p class="subtitle-imagia"><?php echo $lang['Président'] ?></p>
+                                                        <h3 class="name-imagia">Nathan Labbé</h3>
+                                                        <p class="subtitle-imagia"><?php echo $lang['Sécurité Informatique'] ?></p>
                                                         <p class="text-center reduise"><em>
-                                                                <?php echo $lang['Paperasse'] ?>
+                                                                <?php echo $lang['Chargé'] ?>
                                                             </em></p>
                                                     </div>
-                                                    <a target="_blank" href="portfolio/francois/index.html">
+                                                    <a target="_blank" href="portfolio/nathan/index.html">
                                                         <div class="footer-imagia"><span><?php echo $lang['Voir le portfolio'] ?></span></div>
                                                     </a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
+
 
                                     <div class="col-sm-6 col-md-4">
                                         <div class="card-container-imagia">
@@ -258,6 +271,8 @@ include "config.php";
                                         </div>
                                     </div>
 
+
+
                                     <div class="col-sm-6 col-md-4">
                                         <div class="card-container-imagia">
                                             <div class="card-imagia">
@@ -278,33 +293,41 @@ include "config.php";
                                             </div>
                                         </div>
                                     </div>
+
+
                                 </div>
                             </div>
 
 
+
+
+
                             <section class="card-section-imagia" style="background: #001933;">
                                 <div class="container" style="max-width: 1200px;">
+
+
                                     <div class="row" style="background: #001933;margin-top: -64px;padding-bottom: -27px;">
                                         <div class="col-sm-6 col-md-4 d-flex ml-auto">
                                             <div class="card-container-imagia">
                                                 <div class="card-imagia">
                                                     <div class="front-imagia">
-                                                        <div class="cover-imagia"><img alt="securite" src="assets/img/secu.jpg"></div>
-                                                        <div class="user-imagia"><img class="img-circle visage" style="width: 150px;" alt="nathan" src="assets/img/nathan.jpg"></div>
+                                                        <div class="cover-imagia"><img alt="securite" src="assets/img/pres.jpg"></div>
+                                                        <div class="user-imagia"><img class="img-circle visage" style="width: 150px;" alt="francois" src="assets/img/francois1.jpg"></div>
                                                         <div class="content-imagia">
-                                                            <h3 class="name-imagia">Nathan Labbé</h3>
-                                                            <p class="subtitle-imagia"><?php echo $lang['Sécurité Informatique'] ?></p>
+                                                            <h3 class="name-imagia">François Pannier</h3>
+                                                            <p class="subtitle-imagia"><?php echo $lang['Président'] ?></p>
                                                             <p class="text-center reduise"><em>
-                                                                    <?php echo $lang['Chargé'] ?>
+                                                                    <?php echo $lang['Paperasse'] ?>
                                                                 </em></p>
                                                         </div>
-                                                        <a target="_blank" href="portfolio/nathan/index.html">
+                                                        <a target="_blank" href="portfolio/francois/index.html">
                                                             <div class="footer-imagia"><span><?php echo $lang['Voir le portfolio'] ?></span></div>
                                                         </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+
 
 
                                         <div class="col-sm-6 col-md-4 d-flex mr-auto">
@@ -325,6 +348,8 @@ include "config.php";
                                                 </div>
                                             </div>
                                         </div>
+
+
 
                                     </div>
                                 </div>

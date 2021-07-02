@@ -7,17 +7,17 @@ $lang = array(
     "Contacter" => "Contacter",
     "Bonjour" => "Bonjour,",
     "Bienvenue" => "Bienvenue chez",
-    "Équipe" => "L'équipe UTEMA œuvre dans plusieurs domaines, de la programmation au graphisme en passant par la photographie.",
-    "Comment aider" => "Découvrez comment UTEMA peut vous être utile.",
-    "Programmation" => "Programmation",
-    "Programmes" => "Programmes, petits logiciels, sites web statiques ou dynamiques, base de données et bien d'autres…",
+    "Programmation" => "Développement Informatique",
+    "Programmes" => "Création de site vitrine, Référencement, Hébergement, Site web dynamique avec création de base de données, Solution logiciel, Automatisation de tâche ...",
     "En savoir plus" => "En savoir plus",
     "Graphisme" => "Graphisme",
-    "Logos" => "Logos, illustrations, designs, chartres graphiques, web design, affiches, overlays, animations et bien d'autres...",
+    "Logos" => "Logo, Illustration, Chartre graphique, Web design, Affiches, Overlays, Animation ...",
     "Photographie" => "Photographie",
-    "Portraits" => "Portraits, backgrounds, scènes, macro, panning shots, photos de produits, retouches et bien d'autres...",
+    "Portraits" => "Portrait, Background, Scènes, Macro, Panning shot, Photos de produits, Retouche, Shot pour réseau sociaux ...",
     "Vidéo" => "Vidéo/Montage",
-    "Montages" => "Montages vidéos, post-productions, scènes, animations, court-métrages et bien d'autres...",
+    "Montages" => "Tournage, Présentation business, Montage vidéo, Post-production, Court-métrage ...",
+    "Support" => "Support Informatique",
+    "Réparation" => "Réparation ou amélioration d’ordinateur, Demande de projet particulière, Accompagnement et conseil pour les projets de digitalisation, Enseignement ...",
     "À" => "À ",
     "PROPOS" => "PROPOS",
     "Découvrez" => "L’Association UTEMA à but de favoriser l’accès et la compréhension du
@@ -25,8 +25,7 @@ $lang = array(
     projets, ou de votre entreprise, offre une visibilité à une large communauté, un accès
     direct à vos créations et vos produits, et une clarté à vos projets.
     Toute l’équipe UTEMA, principalement composé d’étudiants, œuvre pour la
-    digitalisation de tous vos projets.
-    ",
+    digitalisation de tous vos projets.",
     "Président" => "Président",
     "Paperasse" => "Je m’occupe de l’algorithmie derrière vos sites webs, et cogère l’association.",
     "Voir le portfolio" => "Voir le portfolio",
