@@ -196,9 +196,11 @@ include "config.php";
                 <!-- About -->
 
                 <section id='about' data-aos="fade-right" style="margin-top: 0px;background: #001933;margin-bottom: -34px;padding-bottom: -63px;">
+
                     <div class="container" style="background: #001933;margin-top: 0px;padding-top: 3px;">
-                        <h1 class="mx-auto" style="text-align: center;margin: 53px;background: #001933;color: #f5faff;font-size: 50px;"><span style="color: #007fff;"><?php echo $lang['À'] ?></span><?php echo $lang['PROPOS'] ?></h1>
-                        <p class="text-center" style="color: #f5faff;"><?php echo $lang['Découvrez'] ?><br></p>
+                        <h1 class="mx-auto" style="text-align: center;margin: 53px;background: #001933;color: #f5faff;font-size: 50px;"><span style="color: #007fff;">
+                                <?php echo $lang['À'] ?></span><?php echo $lang['PROPOS'] ?></h1>
+                        <p class="text-center" style="color: #f5faff; margin-top: -25px"><?php echo $lang['Découvrez'] ?><br></p>
                     </div>
                     <hr class="d-flex mx-auto" style="background: #f5faff;margin-top: 36px;margin-bottom: 32px;width: auto;max-width: 380px;">
 
