@@ -1,0 +1,129 @@
+div.jumbotron.hero-photography1 {
+  color: #fff;
+  text-align: center;
+  background: url("../../assets/img/photob.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  transition: all ease-in-out 0.2s;
+}
+
+div.jumbotron.hero-video1 {
+  color: #fff;
+  text-align: center;
+  background: url("../../assets/img/videob.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  transition: all ease-in-out 0.2s;
+}
+
+div.jumbotron.hero-dev1 {
+  color: #fff;
+  text-align: center;
+  background: url("../../assets/img/progb.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  transition: all ease-in-out 0.2s;
+}
+
+div.jumbotron.hero-graphisme1 {
+  color: #fff;
+  text-align: center;
+  background: url("../../assets/img/graphismeb.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  transition: all ease-in-out 0.2s;
+}
+
+div.jumbotron.hero-support1 {
+  color: #fff;
+  text-align: center;
+  background: url("../../assets/img/support1b.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  transition: all ease-in-out 0.2s;
+}
+
+h1.hero-title,
+h2.hero-title,
+h3.hero-title {
+  text-shadow: 0 3px 3px black;
+  color: #fff;
+}
+
+p.hero-subtitle {
+  max-width: 600px;
+  margin: 25px auto;
+  color: #fff;
+  text-shadow: 0 3px 3px black;
+}
+
+.ranger {
+  margin-top: 73px;
+  margin-bottom: -8px;
+  padding-top: 25px;
+}
+
+div.jumbotron.hero-photography1:hover {
+  background: url("../../assets/img/photoh.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+div.jumbotron.hero-video1:hover {
+  background: url("../../assets/img/videoh.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+div.jumbotron.hero-dev1:hover {
+  background: url("../../assets/img/progh.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+div.jumbotron.hero-graphisme1:hover {
+  background: url("../../assets/img/graphismeh.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+div.jumbotron.hero-support1:hover {
+  background: url("../../assets/img/support1h.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}

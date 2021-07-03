@@ -40,6 +40,7 @@ include "config.php";
     <link rel="stylesheet" href="assets/css/Sidebar-Menu-1.css">
     <link rel="stylesheet" href="assets/css/Sidebar-Menu.css">
     <link rel="stylesheet" href="assets/css/top.css">
+    <link rel="stylesheet" href="assets/css/Hero-Photography.css">
 
 </head>
 
@@ -141,70 +142,51 @@ include "config.php";
                 <div id='services'></div>
                 <section style="background: #13122f; padding-bottom: 0px;padding-top: 52px;margin-top: 0px;">
                     <div class="container" style="background: #13122f;">
-                        <h1 class="mx-auto" style="text-align: center;margin: 53px; margin-top: 10px; background: #13122f;color: #f5faff;font-size: 50px;">SERV<span style="color: #007fff;">I</span>CES</h1>
+                        <h1 class="mx-auto" style="margin-bottom: -20px;text-align: center;margin: 53px; margin-top: 10px; background: #13122f;color: #f5faff;font-size: 50px;">
+                            SERV<span style="color: #007fff;">I</span>CES</h1>
                     </div>
 
-                    <hr class="d-flex mx-auto" style="background: #f5faff;margin-top: 40px;margin-bottom: -40px;width: auto;max-width: 380px;">
-                    <div class="carousel slide" data-ride="carousel" id="carousel-1" style="margin-top: 81px;">
+                    <hr class="d-flex mx-auto" style="background: #f5faff;margin-top: -20px;margin-bottom: -40px;width: auto;max-width: 380px;">
 
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="jumbotron hero-nature carousel-hero">
-                                    <h1 class="hero-title"><?php echo $lang['Programmation'] ?></h1>
-                                    <p class="hero-subtitle"><?php echo $lang['Programmes'] ?><br></p>
-                                    <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#"><?php echo $lang['En savoir plus'] ?></a></p>
-                                </div>
-                            </div>
 
-                            <div class="carousel-item">
-                                <div class="jumbotron hero-photography carousel-hero">
-                                    <h1 class="hero-title"><?php echo $lang['Graphisme'] ?></h1>
-                                    <p class="hero-subtitle"><?php echo $lang['Logos'] ?>
-                                    </p><br>
-                                    <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#"><?php echo $lang['En savoir plus'] ?></a></p>
-                                </div>
-                            </div>
+                    <section>
 
-                            <div class="carousel-item">
-                                <div class="jumbotron hero-technology carousel-hero">
-                                    <h1 class="hero-title"><?php echo $lang['Photographie'] ?></h1>
-                                    <p class="hero-subtitle"><?php echo $lang['Portraits'] ?>
-                                    </p><br>
-                                    <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#"><?php echo $lang['En savoir plus'] ?></a></p>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <div class="jumbotron hero-video carousel-hero">
-                                    <h1 class="hero-title"><?php echo $lang['Vidéo'] ?></h1>
-                                    <p class="hero-subtitle"><?php echo $lang['Montages'] ?>
-                                    </p><br>
-                                    <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#"><?php echo $lang['En savoir plus'] ?></a></p>
-                                </div>
-                            </div>
-
-                            <div class="carousel-item">
-                                <div class="jumbotron hero-nature carousel-hero">
-                                    <h1 class="hero-title"><?php echo $lang['Support'] ?></h1>
-                                    <p class="hero-subtitle"><?php echo $lang['Réparation'] ?>
-                                    </p>
-                                    <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#"><?php echo $lang['En savoir plus'] ?></a></p>
-                                </div>
-                            </div>
-
+                        <div class="jumbotron hero-photography1" style="margin-top: 72px;padding-bottom: 0px;padding-top: 0px;margin-bottom: 0;border-radius: -0;">
+                            <h2 class="hero-title ranger"><?php echo $lang['Photographie'] ?></h2>
+                            <p class="hero-subtitle" style="margin-top: 3px;padding-bottom: 28px;">
+                                <?php echo $lang['Portraits'] ?><br></p>
                         </div>
 
-                        <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><i class="fa fa-chevron-left"></i><span class="sr-only">
-                                    Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><i class="fa fa-chevron-right"></i><span class="sr-only">
-                                    Next</span></a></div>
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-1" data-slide-to="1"></li>
-                            <li data-target="#carousel-1" data-slide-to="2"></li>
-                            <li data-target="#carousel-1" data-slide-to="3"></li>
-                            <li data-target="#carousel-1" data-slide-to="4"></li>
-                        </ol>
-                    </div>
+
+                        <div class="jumbotron hero-dev1" style="margin-top: -74px;padding-bottom: 0px;padding-top: 0px;border-radius: 0;">
+                            <h2 class="hero-title ranger"><?php echo $lang['Programmation'] ?></h2>
+                            <p class="hero-subtitle" style="margin-top: 3px;padding-bottom: 28px;">
+                                <?php echo $lang['Programmes'] ?><br></p>
+                        </div>
+
+
+                        <div class="jumbotron hero-graphisme1" style="margin-top: -74px;padding-bottom: 0px;padding-top: 0px;border-radius: 0;">
+                            <h2 class="hero-title ranger"><?php echo $lang['Graphisme'] ?></h2>
+                            <p class="hero-subtitle" style="margin-top: 3px;padding-bottom: 28px;">
+                                <?php echo $lang['Logos'] ?><br></p>
+                        </div>
+
+
+                        <div class="jumbotron hero-video1" style="margin-top: -74px;padding-bottom: 0px;padding-top: 0px;border-radius: 0;">
+                            <h2 class="hero-title ranger"><?php echo $lang['Vidéo'] ?></h2>
+                            <p class="hero-subtitle" style="margin-top: 3px;padding-bottom: 28px;">
+                                <?php echo $lang['Montages'] ?><br></p>
+                        </div>
+
+
+                        <div class="jumbotron hero-support1" style="margin-top: -74px;padding-bottom: 0px;padding-top: 0px;border-radius: 0;">
+                            <h2 class="hero-title ranger"><?php echo $lang['Support'] ?></h2>
+                            <p class="hero-subtitle" style="margin-top: 3px;padding-bottom: 28px;">
+                                <?php echo $lang['Réparation'] ?><br></p>
+                        </div>
+
+                    </section>
+
                 </section>
 
                 <!-- End Services -->
